@@ -1,0 +1,30 @@
+{
+    "name": "my-book-app",
+    "version": "1.0.0",
+    "description": "A CRUD application for managing books using Express and MySQL",
+    "main": "src/app.ts",
+    "scripts": {
+        "start": "node src/app.js",
+        "dev": "nodemon src/app.ts"
+    },
+    "keywords": [
+        "express",
+        "mysql",
+        "crud",
+        "books"
+    ],
+    "author": "Your Name",
+    "license": "MIT",
+    "dependencies": {
+        "dotenv": "^16.4.5",
+        "express": "^4.17.1",
+        "mysql2": "^2.3.0",
+        "ts-node": "^10.9.2",
+        "zod": "^3.22.4"
+    },
+    "devDependencies": {
+        "@types/express": "^4.17.21",
+        "nodemon": "^2.0.12",
+        "typescript": "^4.4.3"
+    }
+}
